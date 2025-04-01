@@ -38,8 +38,8 @@ The project applies **Linear Regression**, **Pipelines**, and **Polynomial Regre
    cd ml_regression_Toba
 
 ## Create a virtual environment:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+* python -m venv venv
+* source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ## Install dependencies:
 pip install -r requirements.txt
