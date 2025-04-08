@@ -1,14 +1,14 @@
 # Final Project – Regression Analysis: Predicting Medical Insurance Charges
 
 **Name:** Toba  
-**Notebook:** [`regression_Toba.ipynb`]  
-**Peer Review:** [`peer_review.md`]
+**Notebook:** [regression_Toba.ipynb](regression_Toba.ipynb)  
+**Peer Review:** [peer_review.md](peer_review.md)  
 
 ---
 
 ## 📊 Project Overview
 
-This project uses the [Medical Cost Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance) to build regression models that predict individual medical insurance charges based on demographic and health-related factors such as:
+This project uses the [Medical Cost Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance) to build regression models that predict individual medical insurance charges based on demographic and health-related features like:
 
 - Age
 - Body Mass Index (BMI)
@@ -16,7 +16,10 @@ This project uses the [Medical Cost Dataset](https://www.kaggle.com/datasets/mir
 - Smoking Status
 - Obesity (derived feature)
 
-The project applies **Linear Regression**, **Pipelines**, and **Polynomial Regression**, evaluating performance using R², MAE, and RMSE.
+Techniques include:
+- Base Linear Regression
+- Pipelines (with Scaling and Polynomial Features)
+- Evaluation using R², MAE, RMSE
 
 ---
 
@@ -30,7 +33,7 @@ The project applies **Linear Regression**, **Pipelines**, and **Polynomial Regre
 
 ---
 
-## 📁 How to Run This Notebook Locally
+## 🛠 How to Run This Notebook Locally
 
 1. Clone this repository:
    ```bash
